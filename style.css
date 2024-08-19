@@ -1,0 +1,99 @@
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(56, 224, 112);
+}
+div{
+    position:relative;
+}
+h2{
+    font-family: 'Lucida Sans';
+    font-size: 2em;
+}
+#loginform{
+    border:5px solid rgb(57, 202, 64);
+    padding: 50px;
+    background-color: rgb(47, 219, 76);
+    border-radius: 10px;
+    position:relative;
+    width: 500px;
+
+}
+input{
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #27e968;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.205);
+    font-size: 1.2em;
+    font-family: 'Lucida Sans', sans-serif;
+    backdrop-filter: blur(10px);
+}
+label{
+    font-size: 1.5em;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+#textbox , #pssword{
+    width: 200px;
+    height: 30px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button{
+    border:none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    position:absolute;
+    right:115px;
+    bottom:10px;
+    background-color: #27e968;
+    border:1px solid rgb(38, 212, 67);
+}  
+#pass{
+    display:flex;
+}
+.password{
+    margin-left: 4px;
+
+}
+#btn:hover{
+    background-color: #ebebeb;
+    border:1px solid rgb(0, 107, 18);
+    cursor: pointer;
+}
+#eye{
+     position: absolute;
+     right:72px;
+     bottom:25px;
+}
+@media (max-width:600px) {
+    
+     #loginform{
+        width: 100%;
+        padding: 20px;
+     }
+     #textbox , #pssword{
+        width: 100px;
+        height: 50px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    #eye{
+        position: absolute;
+        right:110px;
+        bottom:35px;
+   }
+   button{
+     position: absolute;
+     right:10px;
+     bottom:80px;
+     padding: 10px 15px;
+   }
+}
